@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu du Taquin</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="taquin.js"></script>
+
+
+</head>
+<body>
+<div class="container-fluid entete">
+    <div class="container">
+        <h1>Le jeu du taquin</h1>
+
+        <p> Appuyer sur mélanger pour jouer </p>
+    </div>
+</div>
+<div class="container-fluid">
+    <table>
+        <tr class = "row0">
+            <td class="case0" id ="case0" ></td>
+            <td class="case1" id ="case1"></td>
+            <td class="case2" id ="case2"></td>
+            <td class="case3" id ="case3"></td>
+        </tr>
+        <tr class = "row1">
+            <td class="case0" id ="case4"></td>
+            <td class="case1" id ="case5"></td>
+            <td class="case2" id ="case6"></td>
+            <td class="case3" id ="case7"></td>
+        </tr>
+        <tr class = "row2">
+            <td class="case0" id ="case8"></td>
+            <td class="case1" id ="case9"></td>
+            <td class="case2" id ="case10"></td>
+            <td class="case3" id ="case11"></td>
+        </tr>
+        <tr class = "row3">
+            <td class="case0" id ="case12"></td>
+            <td class="case1" id ="case13"></td>
+            <td class="case2" id ="case14"></td>
+            <td class="case3" id="case15"></td>
+        </tr>
+    </table>
+</div>
+<div class="container-fluid, footer">
+    <button type="button" id="btn" class="btn btn-danger"> Mélanger aléatoirement</button>
+    <button type="button" id="btn1" class="btn btn-warning"> Mélanger</button>
+</div>
+</body>
+</html>
