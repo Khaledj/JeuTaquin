@@ -12,6 +12,11 @@ h1, h2 {
     text-align: center;
 }
 
+h4 {
+    text-decoration: underline;
+    text-align: center;
+
+}
 td {
     border: 1px solid darkred;
     border: groove; 
@@ -67,3 +72,6 @@ p {
     padding: 0.5em;
 }
 
+span {
+    color:red;
+}
